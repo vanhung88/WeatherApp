@@ -1,0 +1,109 @@
+.App {
+  width: 100% !important;
+  height: 100vh !important;
+  /* overflow: hidden; */
+  padding-bottom: 200px;
+  position: relative;
+
+}
+.carouselExampleControls{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.carousel-item{
+    height: 100vh;
+    overflow: hidden;
+}
+img {
+  width: 100%;
+  background-size: cover !important;
+}
+.weather-wrapper{
+    width: 100%;
+    height: 100vh;
+    z-index: 10; 
+    top:0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+}
+.card {
+    display: flex;
+    align-items: center;
+    opacity: 0.95;
+    background-color: rgb(33, 33, 34) !important;
+    width: 500px;
+    /* height: 1000px; */
+    border-radius: 20px !important;
+    color: white; 
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    border: none;
+    padding: 0 20px;
+    color: aliceblue;
+    outline: 0px solid transparent;
+    height: 40px;
+    width: 70%;
+    border-radius: 100px ;
+    background-color: rgb(63, 62, 62) !important;
+
+}
+.search-img--wrapper{
+    cursor: pointer;
+    margin-top: 1px;
+    margin-left: 5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 71, 71) !important;
+    
+}
+.search-img--wrapper:hover{
+    background-color: rgb(107, 106, 106) !important;
+
+}
+.search-img {
+   width: 50%;
+}
+.weather {
+    width: 80%;
+    margin: 20px 0;
+}
+.city {
+
+}
+.icon{
+    padding-right: 5px;
+    width: 40px;
+}
+.temp {
+    font-size: 25px;
+    font-weight: 500;
+}
+.description {
+}
+.humidity {
+}
+.wind {
+    margin-bottom: 40px;
+}
+.iconDes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
