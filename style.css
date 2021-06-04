@@ -31,7 +31,7 @@ img {
     position: absolute; 
 }
 .card {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     opacity: 0.95;
     background-color: rgb(33, 33, 34) !important;
@@ -57,7 +57,6 @@ img {
     width: 70%;
     border-radius: 100px ;
     background-color: rgb(63, 62, 62) !important;
-
 }
 .search-img--wrapper{
     cursor: pointer;
@@ -80,11 +79,19 @@ img {
    width: 50%;
 }
 .weather {
-    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
     margin: 20px 0;
 }
 .city {
-
+    margin: auto;
+    width: 80%;
+}
+.wrapperNone{
+    width: 80%;
+    margin: auto;
 }
 .icon{
     padding-right: 5px;
