@@ -79,27 +79,24 @@ img {
    width: 50%;
 }
 .weather {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    margin: 20px 0;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
 }
 .city {
-    margin: auto;
     width: 80%;
 }
 .wrapperNone{
     width: 80%;
-    margin: auto;
 }
 .icon{
     padding-right: 5px;
     width: 40px;
 }
 .temp {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 500;
+    /* margin-bottom: 10px; */
 }
 .description {
 }

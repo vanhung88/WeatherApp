@@ -6,7 +6,7 @@ let weather={
             .then(response => response.json())
             .then(data => {
                 if(data.cod==404){
-                    document.querySelector(".city").innerText="city is not found"
+                    document.querySelector(".city").innerText="City is not found :("
                     document.querySelector(".wrapperNone").style.display="none"
                 }else{
                     this.displayWeather(data)
